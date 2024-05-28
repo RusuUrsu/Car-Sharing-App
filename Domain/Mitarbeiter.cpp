@@ -6,6 +6,7 @@
 #include <iomanip>
 #include <sstream>
 #include <regex>
+#include <tuple>
 
 
 Mitarbeiter::Mitarbeiter(const std::string& lastName, const std::string& firstName, const std::string& email, const std::string& position, const std::string& abbreviation, const std::string& birthDateString, double salary, const std::string& remarks, bool isAdmin)
@@ -18,7 +19,7 @@ Mitarbeiter::Mitarbeiter(const std::string& lastName, const std::string& firstNa
           salary(salary),
           isActive(true),
           isAdmin(isAdmin) {
-    this->birthDate = parseDate(birthDateString);
+    this->birthDate = birthDateString;
     validateEmail(email);
     validateSalary(salary);
     validateAge(birthDate);
@@ -48,7 +49,7 @@ std::string Mitarbeiter::getRemarks() const {
     return remarks;
 }
 
-std::tm Mitarbeiter::getBirthDate() const {
+std::string Mitarbeiter::getBirthDate() const {
     return birthDate;
 }
 
@@ -104,16 +105,7 @@ void Mitarbeiter::setAdmin(bool isAdmin) {
     this->isAdmin = isAdmin;
 }
 
-std::tm Mitarbeiter::parseDate(const std::string &dateStr) {
-    std::tm tm = {};
-    std::istringstream ss(dateStr);
-    ss >> std::get_time(&tm, "%d.%m.%Y");
-    if (ss.fail()) {
-        throw std::runtime_error("Invalid date format. Expected format: dd.mm.yyyy");
-    }
-    return tm;
 
-}
 
 void Mitarbeiter::validateEmail(const string &email) {
     const std::regex pattern(R"((\w+)(\.{1}\w+)*@(\w+)(\.{1}\w+)+)");
@@ -127,21 +119,43 @@ void Mitarbeiter::validateSalary(double salary) {
         throw std::runtime_error("Salary must be at least 100 EUR. Provided salary: " + std::to_string(salary));
     }
 }
-
-void Mitarbeiter::validateAge(const tm &birthDate) {
-    std::time_t t = std::time(nullptr);
-    std::tm* now = std::localtime(&t);
-    int age = now->tm_year + 1900 - birthDate.tm_year;
-    if ((now->tm_mon < birthDate.tm_mon) || (now->tm_mon == birthDate.tm_mon && now->tm_mday < birthDate.tm_mday)) {
-        age--;
-    }
-    if (age < 0 || age > 80) {
-        throw std::runtime_error("Age must be between 0 and 80 years. Calculated age: " + std::to_string(age));
-    }
+/// DD.MM.YYYY
+tuple<int, int, int> Mitarbeiter::parseDate(std::string date) {
+    for (char& ch : date)
+        ch -= '0';
+    int day = date[0] * 10 + date[1];
+    int month = date[3] * 10 + date[4];
+    int year = date[6] * 1000 + date[7] * 100 + date[8] * 10 + date[9];
+    return make_tuple(day, month, year);
 }
 
 
+int Mitarbeiter::howManyDays(std::string date) {
+    int day, month, year;
+    tie(day, month, year) = parseDate(date);
+    int contor = 0;
+    for (int y = 1; y <= year; ++y) {
+        contor += 365;
+        bool bisect = false;
+        if (y % 4 == 0) {
+            if (y % 100 == 0) {
+                if (y % 400 == 0)
+                    bisect = true;
+                else bisect = false;
+            }
+            else bisect = true;
+        }
+        contor += bisect;
+    }
+    return contor;
+}
 
+void Mitarbeiter::validateAge(const std::string &birthDate) {
+    std::string currentDate = "29.05.2024";
+    int age = (howManyDays(currentDate) - howManyDays(birthDate)) / 365;
+    if (age < 0 || age > 80)
+        throw std::runtime_error("Invalid age");
+}
 
 
 

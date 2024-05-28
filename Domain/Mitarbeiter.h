@@ -17,11 +17,12 @@ private:
     std::string position;
     std::string abbreviation;
     std::string remarks;
-    std::tm birthDate;
+    std::string birthDate;
     double salary;
     bool isActive;
     bool isAdmin;
     std::string password;
+
 public:
     Mitarbeiter(const std::string& lastName, const std::string& firstName, const std::string& email, const std::string& position, const std::string& abbreviation, const std::string& birthDateString, double salary, const std::string& remarks, bool isAdmin);
     std::string getLastName() const;
@@ -30,7 +31,7 @@ public:
     std::string getPosition() const;
     std::string getAbbreviation() const;
     std::string getRemarks() const;
-    std::tm getBirthDate() const;
+    std::string getBirthDate() const;
     double getSalary() const;
     bool getIsActive() const;
     bool getIsAdmin() const;
@@ -46,11 +47,13 @@ public:
     void setActive(bool isActive);
     void setAdmin(bool isAdmin);
 
+    static std::tuple<int, int, int> parseDate(std::string date);
+    static int howManyDays(std::string date);
 
-    static std::tm parseDate(const std::string& dateStr);
+
     static void validateEmail(const std::string& email);
     static void validateSalary(double salary);
-    static void validateAge(const std::tm& birthDate);
+    static void validateAge(const std::string& birthDate);
 
 
     void display() const;

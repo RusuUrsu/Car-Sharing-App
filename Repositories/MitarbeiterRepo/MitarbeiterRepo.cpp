@@ -6,6 +6,7 @@
 #include <sstream>
 #include <cctype>
 #include <typeinfo>
+#include <iostream>
 
 
 MitarbeiterRepo::MitarbeiterRepo(const std::string& filename) {
@@ -41,8 +42,6 @@ void MitarbeiterRepo::read_from_file(const string &filename) {
     file.close();                              // introdus in array
 }
 
-
-///
 
 bool MitarbeiterRepo::verify_employee(const Mitarbeiter &employee) const {
     for (const auto& emp : mitarbeiter) {
@@ -133,7 +132,7 @@ void MitarbeiterRepo::modify_employee(const std::string& identifier, const std::
         throw std::runtime_error("Employee not found.");
     }
 }
-
+///asta nu stiu daca vine in repo
 bool MitarbeiterRepo::search_employee(const std::string& identifier) const {
     auto it = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
         return emp["abbreviation"] == identifier;
@@ -141,98 +140,7 @@ bool MitarbeiterRepo::search_employee(const std::string& identifier) const {
     return it != mitarbeiter.end();
 }
 
-void MitarbeiterRepo::manage_employee(const std::string& adminIdentifier, const std::string& targetIdentifier, const Mitarbeiter& newDetails) {
-    // Găsește angajatul admin
-    auto adminIt = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == adminIdentifier;
-    });
 
-    // Verifică dacă angajatul este admin
-    if (adminIt == mitarbeiter.end() || !(*adminIt)["isAdmin"]) {
-        throw std::runtime_error("Unauthorized: Only admins can manage employees.");
-    }
-
-    // Găsește angajatul țintă
-    auto targetIt = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == targetIdentifier;
-    });
-
-    // Dacă angajatul țintă există, actualizează detaliile
-    if (targetIt != mitarbeiter.end()) {
-        (*targetIt)["lastName"] = newDetails.getLastName();
-        (*targetIt)["firstName"] = newDetails.getFirstName();
-        (*targetIt)["email"] = newDetails.getEmail();
-        (*targetIt)["position"] = newDetails.getPosition();
-        (*targetIt)["abbreviation"] = newDetails.getAbbreviation();
-        (*targetIt)["remarks"] = newDetails.getRemarks();
-
-        // Convertire și actualizare birthDate la format string
-        std::tm birthDate = newDetails.getBirthDate();
-        std::ostringstream oss;
-        oss << std::put_time(&birthDate, "%d.%m.%Y");
-        (*targetIt)["birthDate"] = oss.str();
-
-        (*targetIt)["salary"] = newDetails.getSalary();
-        (*targetIt)["isActive"] = newDetails.getIsActive();
-        (*targetIt)["isAdmin"] = newDetails.getIsAdmin();
-
-        save();
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
-double MitarbeiterRepo::view_salary(const std::string& adminIdentifier, const std::string& targetIdentifier) const {
-    // Găsește angajatul admin
-    auto adminIt = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == adminIdentifier;
-    });
-
-    // Verifică dacă angajatul este admin
-    if (adminIt == mitarbeiter.end() || !(*adminIt)["isAdmin"]) {
-        throw std::runtime_error("Unauthorized: Only admins can view salaries.");
-    }
-
-    // Găsește angajatul țintă
-    auto targetIt = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == targetIdentifier;
-    });
-
-    // Dacă angajatul țintă există, returnează salariul
-    if (targetIt != mitarbeiter.end()) {
-        return (*targetIt)["salary"];
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
-void MitarbeiterRepo::adjust_salary(const std::string& adminIdentifier, const std::string& targetIdentifier, double newSalary) {
-    // Găsește angajatul admin
-    auto adminIt = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == adminIdentifier;
-    });
-
-    // Verifică dacă angajatul este admin
-    if (adminIt == mitarbeiter.end() || !(*adminIt)["isAdmin"]) {
-        throw std::runtime_error("Unauthorized: Only admins can adjust salaries.");
-    }
-
-    // Găsește angajatul țintă
-    auto targetIt = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == targetIdentifier;
-    });
-
-    // Dacă angajatul țintă există, ajustează salariul
-    if (targetIt != mitarbeiter.end()) {
-        Mitarbeiter::validateSalary(newSalary); // Validează noul salariu
-        (*targetIt)["salary"] = newSalary;
-        save();
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
-///function to create a new employee
-void MitarbeiterRepo::create_employee(const Mitarbeiter& employee) {
-    add_employee(employee);
-}
 //function to update an existent employee
 void MitarbeiterRepo::update_employee(const std::string& identifier, const Mitarbeiter& newDetails) {
     auto it = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
@@ -247,10 +155,8 @@ void MitarbeiterRepo::update_employee(const std::string& identifier, const Mitar
         (*it)["abbreviation"] = newDetails.getAbbreviation();
         (*it)["remarks"] = newDetails.getRemarks();
 
-        std::tm birthDate = newDetails.getBirthDate();
-        std::ostringstream oss;
-        oss << std::put_time(&birthDate, "%d.%m.%Y");
-        (*it)["birthDate"] = oss.str();
+        std::string birthDate = newDetails.getBirthDate();
+        (*it)["birthDate"] = birthDate;
 
         (*it)["salary"] = newDetails.getSalary();
         (*it)["isActive"] = newDetails.getIsActive();
@@ -261,47 +167,9 @@ void MitarbeiterRepo::update_employee(const std::string& identifier, const Mitar
         throw std::runtime_error("Employee not found.");
     }
 }
-///function to activate an employee
-void MitarbeiterRepo::activate_employee(const std::string& identifier, bool active) {
-    auto it = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == identifier;
-    });
 
-    if (it != mitarbeiter.end()) {
-        (*it)["isActive"] = active;
-        save();
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
 ///function to delete an employee
 void MitarbeiterRepo::delete_employee(const std::string& identifier) {
     remove_employee(identifier);
 }
 
-void MitarbeiterRepo::assign_admin_rights(const std::string& identifier, bool isAdmin) {
-    auto it = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == identifier;
-    });
-
-    if (it != mitarbeiter.end()) {
-        (*it)["isAdmin"] = isAdmin;
-        save();
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
-
-void MitarbeiterRepo::reset_password(const std::string& identifier, const std::string& newPassword) {
-    // Aceasta este o implementare simplă. În practică, parolele ar trebui să fie hash-uite și gestionate corespunzător.
-    auto it = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == identifier;
-    });
-
-    if (it != mitarbeiter.end()) {
-        (*it)["password"] = newPassword; // Asumând că structura JSON conține un câmp pentru parola.
-        save();
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
