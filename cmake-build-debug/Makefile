@@ -249,29 +249,29 @@ Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s
 .PHONY : Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s
 
-Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.o: Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.o
-.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.o
+Repositories/MitarbeiterRepo/MitarbeiterRepo.o: Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.o
+.PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.o
 
 # target to build an object file
-Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.o
-.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.o
+Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.o
+.PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.o
 
-Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.i: Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.i
-.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.i
+Repositories/MitarbeiterRepo/MitarbeiterRepo.i: Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.i
+.PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.i
 
 # target to preprocess a source file
-Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.i
-.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.i
+Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.i
+.PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.i
 
-Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.s: Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.s
-.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.s
+Repositories/MitarbeiterRepo/MitarbeiterRepo.s: Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s
+.PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.s
 
 # target to generate assembly for a file
-Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.s
-.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp.s
+Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s
+.PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -321,9 +321,9 @@ help:
 	@echo "... Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.o"
 	@echo "... Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.i"
 	@echo "... Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.s"
-	@echo "... Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.o"
-	@echo "... Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.i"
-	@echo "... Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.s"
+	@echo "... Repositories/MitarbeiterRepo/MitarbeiterRepo.o"
+	@echo "... Repositories/MitarbeiterRepo/MitarbeiterRepo.i"
+	@echo "... Repositories/MitarbeiterRepo/MitarbeiterRepo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

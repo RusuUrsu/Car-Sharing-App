@@ -21,7 +21,7 @@ private:
     double salary;
     bool isActive;
     bool isAdmin;
-
+    std::string password;
 public:
     Mitarbeiter(const std::string& lastName, const std::string& firstName, const std::string& email, const std::string& position, const std::string& abbreviation, const std::string& birthDateString, double salary, const std::string& remarks, bool isAdmin);
     std::string getLastName() const;

@@ -108,10 +108,10 @@
 		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.h">
 			<Option target="Json_test"/>
 		</Unit>
-		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.cpp">
+		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp">
 			<Option target="Json_test"/>
 		</Unit>
-		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/MitarbeiterRepo.h">
+		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/MitarbeiterRepo.h">
 			<Option target="Json_test"/>
 		</Unit>
 		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/include/nlohmann/adl_serializer.hpp">

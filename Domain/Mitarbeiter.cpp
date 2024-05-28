@@ -64,31 +64,31 @@ bool Mitarbeiter::getIsAdmin() const {
     return isAdmin;
 }
 
-void Mitarbeiter::setLastName(const string &lastName) {
+void Mitarbeiter::setLastName(const std::string &lastName) {
     this->lastName = lastName;
 }
 
-void Mitarbeiter::setFirstName(const string &firstName) {
+void Mitarbeiter::setFirstName(const std::string &firstName) {
     this->firstName = firstName;
 }
 
-void Mitarbeiter::setEmail(const string &email) {
+void Mitarbeiter::setEmail(const std::string &email) {
     this->email = email;
 }
 
-void Mitarbeiter::setPosition(const string &position) {
+void Mitarbeiter::setPosition(const std::string &position) {
     this->position = position;
 }
 
-void Mitarbeiter::setAbbreviation(const string &abbreviation) {
+void Mitarbeiter::setAbbreviation(const std::string &abbreviation) {
     this->abbreviation = abbreviation;
 }
 
-void Mitarbeiter::setRemarks(const string &remarks) {
+void Mitarbeiter::setRemarks(const std::string &remarks) {
     this->remarks = remarks;
 }
 
-void Mitarbeiter::setBirthDate(const string &birthDateString) {
+void Mitarbeiter::setBirthDate(const std::string &birthDateString) {
     this->birthDate = birthDate;
 }
 
@@ -104,7 +104,7 @@ void Mitarbeiter::setAdmin(bool isAdmin) {
     this->isAdmin = isAdmin;
 }
 
-std::tm Mitarbeiter::parseDate(const string &dateStr) {
+std::tm Mitarbeiter::parseDate(const std::string &dateStr) {
     std::tm tm = {};
     std::istringstream ss(dateStr);
     ss >> std::get_time(&tm, "%d.%m.%Y");
