@@ -1,22 +1,25 @@
-//
-// Created by Home on 5/29/2024.
-//
-
 #ifndef JSON_TEST_CUSTOMERCONTROLLER_H
 #define JSON_TEST_CUSTOMERCONTROLLER_H
 
+#include "CustomerRepo.h"
 #include <vector>
-#include "Customer.h"
-#include "../../Domain/Customer.h"
+#include <string>
 
 class CustomerController {
+private:
+    CustomerRepo customerRepo;
+
 public:
-    std::vector<Customer> customers;
+    CustomerController(const std::string& filename);
 
     void addCustomer(const Customer& customer);
-    void deleteCustomer(long id);
-    Customer* findCustomerByEmail(const std::string& email);
-    void anonymizeCustomer(long id);
+    bool deleteCustomer(const std::string& email); // Return type changed to bool to handle deletion checks
+    void updateCustomer(const std::string& email, const std::string& attribute, const std::string& value);
+    void anonymizeCustomer(const std::string& email);
+    std::vector<Customer> getAllCustomersSortedByName();
+    Customer findCustomerByEmail(const std::string& email);
+    Customer findCustomerByMobile(const std::string& mobile);
+    std::vector<Customer> findCustomersByName(const std::string& name);
 };
 
-#endif //JSON_TEST_CUSTOMERCONTROLLER_H
+#endif // JSON_TEST_CUSTOMERCONTROLLER_H
