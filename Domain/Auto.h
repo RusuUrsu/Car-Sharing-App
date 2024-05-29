@@ -1,5 +1,4 @@
-#ifndef CARSHARINGAPP_AUTO_H
-#define CARSHARINGAPP_AUTO_H
+#pragma once
 
 #include <string>
 
@@ -57,4 +56,3 @@ public:
 
     std::string getBemerkung() const;
 };
-#endif //CARSHARINGAPP_AUTO_H

@@ -1,5 +1,4 @@
-#ifndef CARSHARINGAPP_ORDER_H
-#define CARSHARINGAPP_ORDER_H
+#pragma once
 
 #include <string>
 
@@ -46,5 +45,3 @@ public:
     void setTotalAmount(double totalAmt);
     void setRemark(const std::string& rem);
 };
-
-#endif //CARSHARINGAPP_ORDER_H

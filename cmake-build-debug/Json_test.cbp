@@ -90,16 +90,22 @@
 		<Unit filename="C:/facultation/OOP/Proiect_713_1/Controllers/AutoController/AutoController.h">
 			<Option target="Json_test"/>
 		</Unit>
+		<Unit filename="C:/facultation/OOP/Proiect_713_1/Controllers/OrderController/OrderController.cpp">
+			<Option target="Json_test"/>
+		</Unit>
+		<Unit filename="C:/facultation/OOP/Proiect_713_1/Controllers/OrderController/OrderController.h">
+			<Option target="Json_test"/>
+		</Unit>
+		<Unit filename="C:/facultation/OOP/Proiect_713_1/Controllers/OrderController/TestsOrderController/testOrderController.cpp">
+			<Option target="Json_test"/>
+		</Unit>
+		<Unit filename="C:/facultation/OOP/Proiect_713_1/Controllers/OrderController/TestsOrderController/testOrderController.h">
+			<Option target="Json_test"/>
+		</Unit>
 		<Unit filename="C:/facultation/OOP/Proiect_713_1/Domain/Auto.cpp">
 			<Option target="Json_test"/>
 		</Unit>
 		<Unit filename="C:/facultation/OOP/Proiect_713_1/Domain/Auto.h">
-			<Option target="Json_test"/>
-		</Unit>
-		<Unit filename="C:/facultation/OOP/Proiect_713_1/Domain/Order.cpp">
-			<Option target="Json_test"/>
-		</Unit>
-		<Unit filename="C:/facultation/OOP/Proiect_713_1/Domain/Order.h">
 			<Option target="Json_test"/>
 		</Unit>
 		<Unit filename="C:/facultation/OOP/Proiect_713_1/Repositories/AutoRepo/AutoRepo.cpp">
@@ -112,6 +118,12 @@
 			<Option target="Json_test"/>
 		</Unit>
 		<Unit filename="C:/facultation/OOP/Proiect_713_1/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.h">
+			<Option target="Json_test"/>
+		</Unit>
+		<Unit filename="C:/facultation/OOP/Proiect_713_1/Repositories/OrderRepo/OrderRepo.cpp">
+			<Option target="Json_test"/>
+		</Unit>
+		<Unit filename="C:/facultation/OOP/Proiect_713_1/Repositories/OrderRepo/OrderRepo.h">
 			<Option target="Json_test"/>
 		</Unit>
 		<Unit filename="C:/facultation/OOP/Proiect_713_1/include/nlohmann/adl_serializer.hpp">

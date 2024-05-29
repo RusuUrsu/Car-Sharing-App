@@ -6,6 +6,10 @@
 #include "Domain/Auto.h"
 #include "Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.h"
 #include "Controllers/AutoController/AutoController.h"
+#include "Controllers/OrderController/OrderController.h"
+#include "Controllers/OrderController/TestsOrderController/testOrderController.h"
+#include "Repositories/OrderRepo/OrderRepo.h"
+#include "Domain/Order.h"
 
 using namespace std;
 

@@ -1,5 +1,4 @@
-#ifndef JSON_TEST_AUTOCONTROLLER_H
-#define JSON_TEST_AUTOCONTROLLER_H
+#pragma once
 
 #include <vector>
 #include <string>
@@ -43,4 +42,3 @@ public:
 private:
     AutoRepo& repo; // Reference to the repository
 };
-#endif
