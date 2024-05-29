@@ -20,6 +20,7 @@ Mitarbeiter::Mitarbeiter(const std::string& lastName, const std::string& firstNa
           isActive(true),
           isAdmin(isAdmin) {
     this->birthDate = birthDateString;
+    this->password = password;
     validateEmail(email);
     validateSalary(salary);
     validateAge(birthDate);

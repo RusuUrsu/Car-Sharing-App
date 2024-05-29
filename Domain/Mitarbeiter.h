@@ -32,6 +32,7 @@ public:
     double getSalary() const;
     bool getIsActive() const;
     bool getIsAdmin() const;
+    std::string getPassword() const;
 
     void setLastName(const std::string& lastName);
     void setFirstName(const std::string& firstName);
@@ -43,6 +44,7 @@ public:
     void setSalary(double salary);
     void setActive(bool isActive);
     void setAdmin(bool isAdmin);
+    void setPassword(const std::string& password);
 
     static std::tuple<int, int, int> parseDate(std::string date);
     static int howManyDays(std::string date);
