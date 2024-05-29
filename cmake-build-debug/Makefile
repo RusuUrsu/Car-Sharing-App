@@ -273,6 +273,30 @@ Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s
 .PHONY : Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.s
 
+Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.o: Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.o
+.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.o
+
+# target to build an object file
+Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.o
+.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.o
+
+Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.i: Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.i
+.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.i
+
+# target to preprocess a source file
+Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.i
+.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.i
+
+Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.s: Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.s
+.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.s
+
+# target to generate assembly for a file
+Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Json_test.dir/build.make CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.s
+.PHONY : Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... Repositories/MitarbeiterRepo/MitarbeiterRepo.o"
 	@echo "... Repositories/MitarbeiterRepo/MitarbeiterRepo.i"
 	@echo "... Repositories/MitarbeiterRepo/MitarbeiterRepo.s"
+	@echo "... Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.o"
+	@echo "... Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.i"
+	@echo "... Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

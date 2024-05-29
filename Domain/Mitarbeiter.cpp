@@ -15,8 +15,8 @@ Mitarbeiter::Mitarbeiter(const std::string& lastName, const std::string& firstNa
           email(email),
           position(position),
           abbreviation(abbreviation),
-          remarks(remarks),
           salary(salary),
+          remarks(remarks),
           isActive(true),
           isAdmin(isAdmin) {
     this->birthDate = birthDateString;

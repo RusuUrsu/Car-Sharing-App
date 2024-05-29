@@ -1,8 +1,5 @@
 
-#ifndef JSON_TEST_MITARBEITER_H
-#define JSON_TEST_MITARBEITER_H
-
-#endif //JSON_TEST_MITARBEITER_H
+#pragma once
 
 #include <string>
 

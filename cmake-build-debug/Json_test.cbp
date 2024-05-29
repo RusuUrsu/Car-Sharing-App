@@ -114,6 +114,12 @@
 		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/MitarbeiterRepo.h">
 			<Option target="Json_test"/>
 		</Unit>
+		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp">
+			<Option target="Json_test"/>
+		</Unit>
+		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testsMitarbeiterRepo.h">
+			<Option target="Json_test"/>
+		</Unit>
 		<Unit filename="/Users/alexandrapetrea/Documents/GitHub/Proiect_713_1/include/nlohmann/adl_serializer.hpp">
 			<Option target="Json_test"/>
 		</Unit>

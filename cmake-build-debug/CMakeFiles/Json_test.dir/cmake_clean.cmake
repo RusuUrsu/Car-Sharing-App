@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.o.d"
   "CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.o"
   "CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp.o.d"
+  "CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.o"
+  "CMakeFiles/Json_test.dir/Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp.o.d"
   "CMakeFiles/Json_test.dir/main.cpp.o"
   "CMakeFiles/Json_test.dir/main.cpp.o.d"
   "Json_test"

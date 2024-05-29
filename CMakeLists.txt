@@ -18,5 +18,7 @@ add_executable(Json_test main.cpp
         Repositories/MitarbeiterRepo/MitarbeiterRepo.cpp
         Domain/Mitarbeiter.h
         Domain/Mitarbeiter.cpp
+        Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testMitarbeiterRepo.cpp
+        Repositories/MitarbeiterRepo/TestsMitarbeiterRepo/testsMitarbeiterRepo.h
 )
 

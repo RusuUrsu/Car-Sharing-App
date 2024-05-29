@@ -168,8 +168,5 @@ void MitarbeiterRepo::update_employee(const std::string& identifier, const Mitar
     }
 }
 
-///function to delete an employee
-void MitarbeiterRepo::delete_employee(const std::string& identifier) {
-    remove_employee(identifier);
-}
+
 
