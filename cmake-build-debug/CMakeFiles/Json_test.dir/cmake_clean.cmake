@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj"
   "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj.d"
+  "CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj"
+  "CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj.d"
   "CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj"
   "CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj.d"
+  "CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj"
+  "CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj.d"
   "CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj"
   "CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj.d"
   "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj"

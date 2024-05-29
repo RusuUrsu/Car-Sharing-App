@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rares\CLionProjects\OOP\Proiect_713_1
+CMAKE_SOURCE_DIR = C:\Users\Home\CLionProjects\Proiect_713_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug\CMakeFiles C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,30 @@ Controllers/AutoController/AutoController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.s
 .PHONY : Controllers/AutoController/AutoController.cpp.s
 
+Controllers/CustomerController.obj: Controllers/CustomerController.cpp.obj
+.PHONY : Controllers/CustomerController.obj
+
+# target to build an object file
+Controllers/CustomerController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj
+.PHONY : Controllers/CustomerController.cpp.obj
+
+Controllers/CustomerController.i: Controllers/CustomerController.cpp.i
+.PHONY : Controllers/CustomerController.i
+
+# target to preprocess a source file
+Controllers/CustomerController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.i
+.PHONY : Controllers/CustomerController.cpp.i
+
+Controllers/CustomerController.s: Controllers/CustomerController.cpp.s
+.PHONY : Controllers/CustomerController.s
+
+# target to generate assembly for a file
+Controllers/CustomerController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.s
+.PHONY : Controllers/CustomerController.cpp.s
+
 Domain/Auto.obj: Domain/Auto.cpp.obj
 .PHONY : Domain/Auto.obj
 
@@ -175,6 +199,30 @@ Domain/Auto.s: Domain/Auto.cpp.s
 Domain/Auto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Domain/Auto.cpp.s
 .PHONY : Domain/Auto.cpp.s
+
+Domain/Customer.obj: Domain/Customer.cpp.obj
+.PHONY : Domain/Customer.obj
+
+# target to build an object file
+Domain/Customer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj
+.PHONY : Domain/Customer.cpp.obj
+
+Domain/Customer.i: Domain/Customer.cpp.i
+.PHONY : Domain/Customer.i
+
+# target to preprocess a source file
+Domain/Customer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Domain/Customer.cpp.i
+.PHONY : Domain/Customer.cpp.i
+
+Domain/Customer.s: Domain/Customer.cpp.s
+.PHONY : Domain/Customer.s
+
+# target to generate assembly for a file
+Domain/Customer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Domain/Customer.cpp.s
+.PHONY : Domain/Customer.cpp.s
 
 Repositories/AutoRepo/AutoRepo.obj: Repositories/AutoRepo/AutoRepo.cpp.obj
 .PHONY : Repositories/AutoRepo/AutoRepo.obj
@@ -260,9 +308,15 @@ help:
 	@echo ... Controllers/AutoController/AutoController.obj
 	@echo ... Controllers/AutoController/AutoController.i
 	@echo ... Controllers/AutoController/AutoController.s
+	@echo ... Controllers/CustomerController.obj
+	@echo ... Controllers/CustomerController.i
+	@echo ... Controllers/CustomerController.s
 	@echo ... Domain/Auto.obj
 	@echo ... Domain/Auto.i
 	@echo ... Domain/Auto.s
+	@echo ... Domain/Customer.obj
+	@echo ... Domain/Customer.i
+	@echo ... Domain/Customer.s
 	@echo ... Repositories/AutoRepo/AutoRepo.obj
 	@echo ... Repositories/AutoRepo/AutoRepo.i
 	@echo ... Repositories/AutoRepo/AutoRepo.s
