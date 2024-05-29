@@ -14,5 +14,11 @@ add_executable(Json_test main.cpp
         Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp
         Controllers/AutoController/AutoController.cpp
         Controllers/AutoController/AutoController.h
+        Domain/Admin/Admin.cpp
+        Domain/Admin/Admin.h
+        Repositories/AdminRepo/AdminRepo.cpp
+        Repositories/AdminRepo/AdminRepo.h
+        Repositories/AdminRepo/TestsAdminRepo/TestsAdminRepo.cpp
+        Repositories/AdminRepo/TestsAdminRepo/TestsAdminRepo.h
 )
 
