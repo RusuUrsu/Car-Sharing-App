@@ -5,8 +5,6 @@
 
 enum class OrderStatus { Reservation, Order, Completed };
 
-std::string orderStatusToString(OrderStatus status);
-
 class Order {
 private:
     int orderNumber;

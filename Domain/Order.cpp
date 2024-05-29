@@ -1,14 +1,5 @@
 #include "Order.h"
 
-std::string orderStatusToString(OrderStatus status) {
-    switch (status) {
-        case OrderStatus::Reservation: return "Reservation";
-        case OrderStatus::Order: return "Order";
-        case OrderStatus::Completed: return "Completed";
-        default: return "Unknown";
-    }
-}
-
 // Constructor
 Order::Order(int ordNum, std::string ordDate, OrderStatus stat, std::string car,
              std::string start, std::string end, std::string cust, std::string emp,
