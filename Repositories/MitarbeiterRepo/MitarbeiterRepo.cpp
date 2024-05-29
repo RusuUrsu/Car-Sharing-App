@@ -141,32 +141,6 @@ bool MitarbeiterRepo::search_employee(const std::string& identifier) const {
 }
 
 
-//function to update an existent employee
-void MitarbeiterRepo::update_employee(const std::string& identifier, const Mitarbeiter& newDetails) {
-    auto it = std::find_if(mitarbeiter.begin(), mitarbeiter.end(), [&](const json& emp) {
-        return emp["abbreviation"] == identifier;
-    });
-
-    if (it != mitarbeiter.end()) {
-        (*it)["lastName"] = newDetails.getLastName();
-        (*it)["firstName"] = newDetails.getFirstName();
-        (*it)["email"] = newDetails.getEmail();
-        (*it)["position"] = newDetails.getPosition();
-        (*it)["abbreviation"] = newDetails.getAbbreviation();
-        (*it)["remarks"] = newDetails.getRemarks();
-
-        std::string birthDate = newDetails.getBirthDate();
-        (*it)["birthDate"] = birthDate;
-
-        (*it)["salary"] = newDetails.getSalary();
-        (*it)["isActive"] = newDetails.getIsActive();
-        (*it)["isAdmin"] = newDetails.getIsAdmin();
-
-        save();
-    } else {
-        throw std::runtime_error("Employee not found.");
-    }
-}
 
 
 
