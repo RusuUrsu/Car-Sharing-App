@@ -20,5 +20,10 @@ add_executable(Json_test main.cpp
         Repositories/AdminRepo/AdminRepo.h
         Repositories/AdminRepo/TestsAdminRepo/TestsAdminRepo.cpp
         Repositories/AdminRepo/TestsAdminRepo/TestsAdminRepo.h
+        Controllers/AdminController/AdminController.cpp
+        Controllers/AdminController/AdminController.h
+        Controllers/AdminController/TesteAdminController/TestsAdminController.cpp
+        Controllers/AdminController/TesteAdminController/TestsAdminController.h
+        Controllers/AdminController/TesteAdminController/TestsAdminController.h
 )
 

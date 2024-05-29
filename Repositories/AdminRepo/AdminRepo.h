@@ -21,7 +21,7 @@ private:
 
     bool verify_admin(Admin& admin) const;
 
-    void save();
+    //void save();
 
 public:
 
@@ -31,7 +31,7 @@ public:
     void remove_admin(const std::string& identifier);
     bool search_admin(const std::string email) const;
     void modify_admin(std::string identifier, std::string attribute, std::string value);
-
+    void save();
 
 };
 #endif//

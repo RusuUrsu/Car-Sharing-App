@@ -1,0 +1,29 @@
+[
+  {
+    "Birthday": {
+      "day": 1,
+      "month": "June",
+      "year": 1
+    },
+    "Email": "maria.ionescu@example.com",
+    "First Name": "Maria",
+    "Initials": "MI",
+    "Last Name": "Ionescu",
+    "Password": "anotherpassword456",
+    "Position": "HR Specialist",
+    "Salary": 4200.0
+  },
+  {
+    "Birthday": {
+      "day": 12,
+      "month": "June",
+      "year": 1998
+    },
+    "Email": "gheri.alexandrescu@example.com",
+    "First Name": "Gherase",
+    "Initials": "GA",
+    "Last Name": "Alexandrescu",
+    "Password": "securepassword456",
+    "Position": "Front End Developer",
+    "Salary": 5200.0
+  }]
