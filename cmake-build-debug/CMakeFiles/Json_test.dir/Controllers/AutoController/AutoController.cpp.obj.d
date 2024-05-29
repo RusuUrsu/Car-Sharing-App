@@ -1,6 +1,6 @@
 CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: \
- C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\AutoController\AutoController.cpp \
- C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\AutoController\AutoController.h \
+ C:\Users\Victor\ Rusu\Desktop\DA\Proiect_713_1\Controllers\AutoController\AutoController.cpp \
+ C:\Users\Victor\ Rusu\Desktop\DA\Proiect_713_1\Controllers\AutoController\AutoController.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -103,8 +103,8 @@ CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
- C:/Users/Home/CLionProjects/Proiect_713_1/Domain/Auto.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/Repositories/AutoRepo/AutoRepo.h \
+ C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Domain/Auto.h \
+ C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Repositories/AutoRepo/AutoRepo.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -160,7 +160,7 @@ CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/json.hpp \
+ C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/include/nlohmann/json.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
@@ -198,9 +198,9 @@ CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/adl_serializer.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/abi_macros.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/conversions/from_json.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/adl_serializer.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/abi_macros.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/conversions/from_json.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/forward_list \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/forward_list.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/forward_list.tcc \
@@ -234,30 +234,30 @@ CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/gslice_array.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/mask_array.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/indirect_array.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/exceptions.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/value_t.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/exceptions.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/value_t.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/macro_scope.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/detected.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/void_t.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/macro_scope.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/detected.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/void_t.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/thirdparty/hedley/hedley.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/version \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/string_escape.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/input/position_t.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/cpp_future.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/type_traits.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/iterators/iterator_traits.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/call_std/begin.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/call_std/end.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/json_fwd.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/string_concat.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/string_escape.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/input/position_t.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/cpp_future.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/type_traits.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/call_std/begin.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/call_std/end.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/json_fwd.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/string_concat.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/identity_tag.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/std_fs.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/identity_tag.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/std_fs.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
@@ -278,32 +278,32 @@ CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/conversions/to_json.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/iterators/iteration_proxy.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/byte_container_with_subtype.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/hash.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/input/binary_reader.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/input/input_adapters.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/conversions/to_json.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/byte_container_with_subtype.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/hash.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/input/binary_reader.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/input/input_adapters.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/input/json_sax.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/input/lexer.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/meta/is_sax.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/input/parser.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/iterators/internal_iterator.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/iterators/primitive_iterator.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/iterators/iter_impl.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/json_custom_base_class.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/json_pointer.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/json_ref.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/output/binary_writer.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/output/output_adapters.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/output/serializer.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/conversions/to_chars.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/ordered_map.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/input/json_sax.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/input/lexer.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/meta/is_sax.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/input/parser.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/iterators/iter_impl.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/json_custom_base_class.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/json_pointer.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/json_ref.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/output/binary_writer.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/output/output_adapters.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/output/serializer.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/conversions/to_chars.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/ordered_map.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/any \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/detail/macro_unscope.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- C:/Users/Home/CLionProjects/Proiect_713_1/Domain/Auto.h
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/detail/macro_unscope.hpp \
+ C:/Users/VICTOR~1/Desktop/DA/PROIEC~1/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Domain/Auto.h

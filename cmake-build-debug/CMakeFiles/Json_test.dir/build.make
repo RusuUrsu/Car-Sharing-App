@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Home\CLionProjects\Proiect_713_1
+CMAKE_SOURCE_DIR = "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Json_test.dir/depend.make
@@ -70,108 +70,123 @@ include CMakeFiles/Json_test.dir/flags.make
 
 CMakeFiles/Json_test.dir/main.cpp.obj: CMakeFiles/Json_test.dir/flags.make
 CMakeFiles/Json_test.dir/main.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/main.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/main.cpp
+CMakeFiles/Json_test.dir/main.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/main.cpp
 CMakeFiles/Json_test.dir/main.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Json_test.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/main.cpp.obj -MF CMakeFiles\Json_test.dir\main.cpp.obj.d -o CMakeFiles\Json_test.dir\main.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Json_test.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/main.cpp.obj -MF CMakeFiles\Json_test.dir\main.cpp.obj.d -o CMakeFiles\Json_test.dir\main.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\main.cpp"
 
 CMakeFiles/Json_test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\main.cpp > CMakeFiles\Json_test.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\main.cpp" > CMakeFiles\Json_test.dir\main.cpp.i
 
 CMakeFiles/Json_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\main.cpp -o CMakeFiles\Json_test.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\main.cpp" -o CMakeFiles\Json_test.dir\main.cpp.s
 
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj: CMakeFiles/Json_test.dir/flags.make
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/Repositories/AutoRepo/AutoRepo.cpp
+CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Repositories/AutoRepo/AutoRepo.cpp
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj -MF CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.obj.d -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\Repositories\AutoRepo\AutoRepo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj -MF CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.obj.d -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\AutoRepo\AutoRepo.cpp"
 
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\Repositories\AutoRepo\AutoRepo.cpp > CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\AutoRepo\AutoRepo.cpp" > CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.i
 
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\Repositories\AutoRepo\AutoRepo.cpp -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\AutoRepo\AutoRepo.cpp" -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\AutoRepo.cpp.s
 
 CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj: CMakeFiles/Json_test.dir/flags.make
 CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/Domain/Auto.cpp
+CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Domain/Auto.cpp
 CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj -MF CMakeFiles\Json_test.dir\Domain\Auto.cpp.obj.d -o CMakeFiles\Json_test.dir\Domain\Auto.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\Domain\Auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj -MF CMakeFiles\Json_test.dir\Domain\Auto.cpp.obj.d -o CMakeFiles\Json_test.dir\Domain\Auto.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Domain\Auto.cpp"
 
 CMakeFiles/Json_test.dir/Domain/Auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Domain/Auto.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\Domain\Auto.cpp > CMakeFiles\Json_test.dir\Domain\Auto.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Domain\Auto.cpp" > CMakeFiles\Json_test.dir\Domain\Auto.cpp.i
 
 CMakeFiles/Json_test.dir/Domain/Auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Domain/Auto.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\Domain\Auto.cpp -o CMakeFiles\Json_test.dir\Domain\Auto.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Domain\Auto.cpp" -o CMakeFiles\Json_test.dir\Domain\Auto.cpp.s
 
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj: CMakeFiles/Json_test.dir/flags.make
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp
+CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj -MF CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.obj.d -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj -MF CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.obj.d -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp"
 
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp > CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp" > CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.i
 
 CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp" -o CMakeFiles\Json_test.dir\Repositories\AutoRepo\TestsAutoRepo\testsAutoRepo.cpp.s
 
 CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: CMakeFiles/Json_test.dir/flags.make
 CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/Controllers/AutoController/AutoController.cpp
+CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Controllers/AutoController/AutoController.cpp
 CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj -MF CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.obj.d -o CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\AutoController\AutoController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj -MF CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.obj.d -o CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Controllers\AutoController\AutoController.cpp"
 
 CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\AutoController\AutoController.cpp > CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Controllers\AutoController\AutoController.cpp" > CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.i
 
 CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\AutoController\AutoController.cpp -o CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Controllers\AutoController\AutoController.cpp" -o CMakeFiles\Json_test.dir\Controllers\AutoController\AutoController.cpp.s
 
 CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj: CMakeFiles/Json_test.dir/flags.make
 CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/Domain/Customer.cpp
+CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Domain/Customer.cpp
 CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj -MF CMakeFiles\Json_test.dir\Domain\Customer.cpp.obj.d -o CMakeFiles\Json_test.dir\Domain\Customer.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\Domain\Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj -MF CMakeFiles\Json_test.dir\Domain\Customer.cpp.obj.d -o CMakeFiles\Json_test.dir\Domain\Customer.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Domain\Customer.cpp"
 
 CMakeFiles/Json_test.dir/Domain/Customer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Domain/Customer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\Domain\Customer.cpp > CMakeFiles\Json_test.dir\Domain\Customer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Domain\Customer.cpp" > CMakeFiles\Json_test.dir\Domain\Customer.cpp.i
 
 CMakeFiles/Json_test.dir/Domain/Customer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Domain/Customer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\Domain\Customer.cpp -o CMakeFiles\Json_test.dir\Domain\Customer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Domain\Customer.cpp" -o CMakeFiles\Json_test.dir\Domain\Customer.cpp.s
 
-CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj: CMakeFiles/Json_test.dir/flags.make
-CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
-CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj: C:/Users/Home/CLionProjects/Proiect_713_1/Controllers/CustomerController.cpp
-CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj -MF CMakeFiles\Json_test.dir\Controllers\CustomerController.cpp.obj.d -o CMakeFiles\Json_test.dir\Controllers\CustomerController.cpp.obj -c C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\CustomerController.cpp
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj: CMakeFiles/Json_test.dir/flags.make
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Repositories/CustomerRepo/CustomerRepo.cpp
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj -MF CMakeFiles\Json_test.dir\Repositories\CustomerRepo\CustomerRepo.cpp.obj.d -o CMakeFiles\Json_test.dir\Repositories\CustomerRepo\CustomerRepo.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\CustomerRepo\CustomerRepo.cpp"
 
-CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\CustomerController.cpp > CMakeFiles\Json_test.dir\Controllers\CustomerController.cpp.i
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\CustomerRepo\CustomerRepo.cpp" > CMakeFiles\Json_test.dir\Repositories\CustomerRepo\CustomerRepo.cpp.i
 
-CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Home\CLionProjects\Proiect_713_1\Controllers\CustomerController.cpp -o CMakeFiles\Json_test.dir\Controllers\CustomerController.cpp.s
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\CustomerRepo\CustomerRepo.cpp" -o CMakeFiles\Json_test.dir\Repositories\CustomerRepo\CustomerRepo.cpp.s
+
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj: CMakeFiles/Json_test.dir/flags.make
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj: CMakeFiles/Json_test.dir/includes_CXX.rsp
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj: C:/Users/Victor\ Rusu/Desktop/DA/Proiect_713_1/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj: CMakeFiles/Json_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj -MF CMakeFiles\Json_test.dir\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp.obj.d -o CMakeFiles\Json_test.dir\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp.obj -c "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp"
+
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp" > CMakeFiles\Json_test.dir\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp.i
+
+CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp" -o CMakeFiles\Json_test.dir\Repositories\CustomerRepo\Tests\CustomerRepoTests.cpp.s
 
 # Object files for target Json_test
 Json_test_OBJECTS = \
@@ -181,7 +196,8 @@ Json_test_OBJECTS = \
 "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj" \
 "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj" \
 "CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj" \
-"CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj"
+"CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj" \
+"CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj"
 
 # External object files for target Json_test
 Json_test_EXTERNAL_OBJECTS =
@@ -192,12 +208,13 @@ Json_test.exe: CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj
 Json_test.exe: CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj
 Json_test.exe: CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj
 Json_test.exe: CMakeFiles/Json_test.dir/Domain/Customer.cpp.obj
-Json_test.exe: CMakeFiles/Json_test.dir/Controllers/CustomerController.cpp.obj
+Json_test.exe: CMakeFiles/Json_test.dir/Repositories/CustomerRepo/CustomerRepo.cpp.obj
+Json_test.exe: CMakeFiles/Json_test.dir/Repositories/CustomerRepo/Tests/CustomerRepoTests.cpp.obj
 Json_test.exe: CMakeFiles/Json_test.dir/build.make
 Json_test.exe: CMakeFiles/Json_test.dir/linkLibs.rsp
 Json_test.exe: CMakeFiles/Json_test.dir/objects1.rsp
 Json_test.exe: CMakeFiles/Json_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Json_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Json_test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Json_test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,6 +226,6 @@ CMakeFiles/Json_test.dir/clean:
 .PHONY : CMakeFiles/Json_test.dir/clean
 
 CMakeFiles/Json_test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Home\CLionProjects\Proiect_713_1 C:\Users\Home\CLionProjects\Proiect_713_1 C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug C:\Users\Home\CLionProjects\Proiect_713_1\cmake-build-debug\CMakeFiles\Json_test.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1" "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1" "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug" "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug" "C:\Users\Victor Rusu\Desktop\DA\Proiect_713_1\cmake-build-debug\CMakeFiles\Json_test.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Json_test.dir/depend
 
