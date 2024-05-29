@@ -51,6 +51,7 @@ public:
     void setPassword(std::string newPassword);
     void validateEmail(const std::string &email);
     void validateSalary(double salary);
+    void validateBirthday(Date birthday);
 };
 
 

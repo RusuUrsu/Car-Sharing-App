@@ -105,3 +105,8 @@ void Admin::validateSalary(double salary) {
         throw std::runtime_error("Salary must be at least 100 EUR. Provided salary: " + std::to_string(salary));
     }
 }
+
+void Admin::validateBirthday(Date birthday) {
+    if(birthday.year<=1944 || birthday.year>2024)
+        throw std::runtime_error("Admin must be between 0 and 80 years old");
+}
