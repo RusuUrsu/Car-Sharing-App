@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rares\CLionProjects\OOP\Proiect_713_1
+CMAKE_SOURCE_DIR = D:\Informatica\C++\CLion_projects\Labor_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Informatica\C++\CLion_projects\Labor_1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug\CMakeFiles C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Informatica\C++\CLion_projects\Labor_1\cmake-build-debug\CMakeFiles D:\Informatica\C++\CLion_projects\Labor_1\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rares\CLionProjects\OOP\Proiect_713_1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Informatica\C++\CLion_projects\Labor_1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -224,6 +224,78 @@ Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s
 .PHONY : Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.s
 
+UI/AutoUI.obj: UI/AutoUI.cpp.obj
+.PHONY : UI/AutoUI.obj
+
+# target to build an object file
+UI/AutoUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/AutoUI.cpp.obj
+.PHONY : UI/AutoUI.cpp.obj
+
+UI/AutoUI.i: UI/AutoUI.cpp.i
+.PHONY : UI/AutoUI.i
+
+# target to preprocess a source file
+UI/AutoUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/AutoUI.cpp.i
+.PHONY : UI/AutoUI.cpp.i
+
+UI/AutoUI.s: UI/AutoUI.cpp.s
+.PHONY : UI/AutoUI.s
+
+# target to generate assembly for a file
+UI/AutoUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/AutoUI.cpp.s
+.PHONY : UI/AutoUI.cpp.s
+
+UI/CustomerUI.obj: UI/CustomerUI.cpp.obj
+.PHONY : UI/CustomerUI.obj
+
+# target to build an object file
+UI/CustomerUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/CustomerUI.cpp.obj
+.PHONY : UI/CustomerUI.cpp.obj
+
+UI/CustomerUI.i: UI/CustomerUI.cpp.i
+.PHONY : UI/CustomerUI.i
+
+# target to preprocess a source file
+UI/CustomerUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/CustomerUI.cpp.i
+.PHONY : UI/CustomerUI.cpp.i
+
+UI/CustomerUI.s: UI/CustomerUI.cpp.s
+.PHONY : UI/CustomerUI.s
+
+# target to generate assembly for a file
+UI/CustomerUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/CustomerUI.cpp.s
+.PHONY : UI/CustomerUI.cpp.s
+
+UI/FinalUI.obj: UI/FinalUI.cpp.obj
+.PHONY : UI/FinalUI.obj
+
+# target to build an object file
+UI/FinalUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/FinalUI.cpp.obj
+.PHONY : UI/FinalUI.cpp.obj
+
+UI/FinalUI.i: UI/FinalUI.cpp.i
+.PHONY : UI/FinalUI.i
+
+# target to preprocess a source file
+UI/FinalUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/FinalUI.cpp.i
+.PHONY : UI/FinalUI.cpp.i
+
+UI/FinalUI.s: UI/FinalUI.cpp.s
+.PHONY : UI/FinalUI.s
+
+# target to generate assembly for a file
+UI/FinalUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Json_test.dir\build.make CMakeFiles/Json_test.dir/UI/FinalUI.cpp.s
+.PHONY : UI/FinalUI.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -269,6 +341,15 @@ help:
 	@echo ... Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.obj
 	@echo ... Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.i
 	@echo ... Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.s
+	@echo ... UI/AutoUI.obj
+	@echo ... UI/AutoUI.i
+	@echo ... UI/AutoUI.s
+	@echo ... UI/CustomerUI.obj
+	@echo ... UI/CustomerUI.i
+	@echo ... UI/CustomerUI.s
+	@echo ... UI/FinalUI.obj
+	@echo ... UI/FinalUI.i
+	@echo ... UI/FinalUI.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

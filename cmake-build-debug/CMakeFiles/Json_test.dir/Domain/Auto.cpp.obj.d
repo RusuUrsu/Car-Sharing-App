@@ -1,6 +1,6 @@
 CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj: \
- C:\Users\rares\CLionProjects\OOP\Proiect_713_1\Domain\Auto.cpp \
- C:\Users\rares\CLionProjects\OOP\Proiect_713_1\Domain\Auto.h \
+ D:\Informatica\C++\CLion_projects\Labor_1\Domain\Auto.cpp \
+ D:\Informatica\C++\CLion_projects\Labor_1\Domain\Auto.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

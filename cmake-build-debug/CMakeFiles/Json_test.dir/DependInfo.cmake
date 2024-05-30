@@ -8,11 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/rares/CLionProjects/OOP/Proiect_713_1/Controllers/AutoController/AutoController.cpp" "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj.d"
-  "C:/Users/rares/CLionProjects/OOP/Proiect_713_1/Domain/Auto.cpp" "CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj.d"
-  "C:/Users/rares/CLionProjects/OOP/Proiect_713_1/Repositories/AutoRepo/AutoRepo.cpp" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj.d"
-  "C:/Users/rares/CLionProjects/OOP/Proiect_713_1/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj.d"
-  "C:/Users/rares/CLionProjects/OOP/Proiect_713_1/main.cpp" "CMakeFiles/Json_test.dir/main.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/main.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/Controllers/AutoController/AutoController.cpp" "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Controllers/AutoController/AutoController.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/Domain/Auto.cpp" "CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Domain/Auto.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/Repositories/AutoRepo/AutoRepo.cpp" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/AutoRepo.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/Repositories/AutoRepo/TestsAutoRepo/testsAutoRepo.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/UI/AutoUI.cpp" "CMakeFiles/Json_test.dir/UI/AutoUI.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/UI/AutoUI.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/UI/CustomerUI.cpp" "CMakeFiles/Json_test.dir/UI/CustomerUI.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/UI/CustomerUI.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/UI/FinalUI.cpp" "CMakeFiles/Json_test.dir/UI/FinalUI.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/UI/FinalUI.cpp.obj.d"
+  "D:/Informatica/C++/CLion_projects/Labor_1/main.cpp" "CMakeFiles/Json_test.dir/main.cpp.obj" "gcc" "CMakeFiles/Json_test.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
