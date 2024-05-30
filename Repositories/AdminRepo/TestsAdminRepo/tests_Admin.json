@@ -1,0 +1,18 @@
+[
+    {
+        "Birthday": {
+            "day": 2,
+            "month": "January",
+            "year": 1990
+        },
+        "Email": "cosmin.pilca@example.com",
+        "First Name": "Doe",
+        "Initials": "CP",
+        "Last Name": "Cosmin",
+        "Notes": "Remarks",
+        "Password": "password",
+        "Position": "Manager",
+        "Salary": 5000,
+        "is Active": false
+    }
+]

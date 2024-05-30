@@ -36,6 +36,16 @@ add_executable(Json_test main.cpp
         Repositories/CustomerRepo/CustomerRepo.h
         Repositories/CustomerRepo/TestsCustomerRepo/testCustomerRepo.cpp
         Repositories/CustomerRepo/TestsCustomerRepo/testCustomerRepo.h
-        Controllers/MitarbeiterController/MitarbeiterController.cpp
-        Controllers/MitarbeiterController/TestsMitarbeiterController/testMitarbeiterController.cpp
+        Domain/Admin.cpp
+        Domain/Admin.h
+        Repositories/AdminRepo/AdminRepo.cpp
+        Repositories/AdminRepo/AdminRepo.h
+        Repositories/AdminRepo/TestsAdminRepo/testsAdminRepo.cpp
+        Repositories/AdminRepo/TestsAdminRepo/testsAdminRepo.h
+        Controllers/AdminController/AdminController.cpp
+        Controllers/AdminController/AdminController.h
+        Controllers/AdminController/TestsAdminController/testsAdminController.cpp
+        Controllers/AdminController/TestsAdminController/testsAdminController.h
+        Controllers/CustomerController/CustomerController.cpp
+        Controllers/CustomerController/CustomerController.h
 )
