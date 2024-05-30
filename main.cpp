@@ -17,6 +17,7 @@
 #include "Repositories/CustomerRepo/CustomerRepo.h"
 #include "Repositories/AdminRepo/TestsAdminRepo/testsAdminRepo.h"
 #include "Repositories/AdminRepo/AdminRepo.h"
+#include "Controllers/MitarbeiterController/TestsMitarbeiterController/testMitarbeiterController.h"
 
 using namespace std;
 
@@ -29,6 +30,7 @@ int main() {
     run_tests_customer_repo();
     run_tests_admin_repo();
     run_tests_admin_controller();
+	run_tests_mitarbeiter_controller();
     // masinile json se afla in "cars.json"
     AutoRepo cr("AutoRepo/cars.json"); // la initializare, se deschide fisierul cars.json in Repo
     AutoController cc(cr); // AutoController
